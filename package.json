@@ -1,0 +1,16 @@
+{
+  "name": "mainhackathon",
+  "version": "1.0.0",
+  "description": "Fullstack hackathon project with frontend and backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm start --prefix frontend\" \"npm start --prefix backend\"",
+    "install-all": "npm install --prefix frontend && npm install --prefix backend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

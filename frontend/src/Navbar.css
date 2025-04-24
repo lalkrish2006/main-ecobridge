@@ -1,0 +1,32 @@
+
+
+.navbar .nav-link {
+    color: #000;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #19486A !important;
+    font-weight: 700;
+    transform: scale(1.05); 
+  }
+  
+  .custom-navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  
+  .custom-navbar .nav-link {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.75rem 1rem; 
+  }
+  
+  .container-fluid > a{
+    color: #19486A !important;
+    font-weight: 700;
+  }

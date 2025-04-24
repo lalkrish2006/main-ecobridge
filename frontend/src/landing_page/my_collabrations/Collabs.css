@@ -1,0 +1,63 @@
+.card-hover {
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+    cursor: pointer;
+  }
+  
+  .card-hover:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-color: #19486A;
+  }
+  
+  .btn-sdg {
+    background-color: #19486A;
+    color: white;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-sdg:hover {
+    background-color: #145273;
+    color: #fff;
+  }
+  
+  .collab-wrapper {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .collab-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+    box-sizing: border-box;
+  }
+  
+  .collab-chart {
+    width: 35vw; /* Chart width is 35% of the viewport width */
+    height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa;
+    border-left: 1px solid #ddd;
+    display: flex;
+    align-items: center;     /* Vertically center the chart */
+    justify-content: center; /* Horizontally center the chart */
+    box-sizing: border-box;
+  }
+  
+  .chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .chart-title {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
